@@ -1,6 +1,6 @@
 package controller;
 
-public class CalculateBMI {
+public class CalculateBMI{
 
 	//Enter the code here....
 
@@ -12,6 +12,7 @@ double BMI = weight/(height*height);
 return BMI;
 	}
 	public static String description(double bmi){
+		
 		if(bmi < 18.5){
 			return"Under Weight";
 		}
